@@ -1,0 +1,520 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    font-family: "heebo", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* header nav css */
+header{
+    background-image: url(img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+header div.nav-con-tain-er{
+    background-color: #0f172bd0;
+    position: relative;
+}
+
+header div.nav-con-tain-er nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    position: fixed;
+    background: #0f172b;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header nav h1{
+    font-family: "nunito", sans-serif;
+    color: #FEA116 !important;
+    font-weight: 800;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+header nav a{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding-right: 3rem;
+}
+
+header div.hide{
+    display: none;
+}
+
+header nav a:hover{
+    color: #FEA116;
+}
+
+header nav a.home{
+    color: #FEA116 !important;
+}
+
+header nav button{
+    background-color: #FEA116;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1.7rem 5.2rem;
+    font-size: 1.2rem;
+}
+
+header nav button:hover{
+    background-color: #fea116d7;
+}
+
+/* header section */
+header div.nav-con-tain-er div.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 100px 50px 40px 50px;
+}
+
+header div.nav-con-tain-er div.section div{
+    width: 37vw;
+}
+
+header div.nav-con-tain-er div.section div.sec1{
+    color: white;
+    font-family: "heebo", sans-serif;
+}
+
+div.section div.sec1 h1{
+    font-size: 6rem;
+    font-family: "nunito", sans-serif;
+    padding-bottom: 2px;
+}
+
+div.section div.sec1 p{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+div.section div.sec1 button{
+    background-color: #FEA116;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2rem 5.2rem;
+    font-size: 2rem;
+}
+
+div.section div.sec1 button:hover{
+    background-color: #f79400;
+}
+
+div.section div.sec2 img{
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ----------------section 1 css----------------------- */
+section.con-tain-er1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+
+section.con-tain-er1 div.boxes{
+    flex-basis: 30rem;
+    padding: 40px;
+}
+
+section.con-tain-er1 div.boxes:hover{
+    background-color: #FEA116;
+    color: white;
+    border-radius: 5px;
+}
+
+section.con-tain-er1 div.boxes h5{
+    font-size: 1.9rem;
+    padding-bottom: 5px;
+    font-family: "nunito", sans-serif;
+    font-weight: 800;
+}
+
+section.con-tain-er1 div.boxes p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+section.con-tain-er1 div.boxes i{
+    color: #FEA116;
+    font-size: 5rem;
+    padding-bottom: 5px;
+}
+
+section.con-tain-er1 div.boxes i:hover{
+    color: white;
+}
+
+/* ------------------ section 2 css -------------------*/
+section.con-tain-er2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+section.con-tain-er2 div.col-lage{
+    display: inline-grid;
+    grid-template-columns: 30rem 30rem;
+    grid-gap: 10px;
+}
+
+section.con-tain-er2 div.col-lage img{
+    border-radius: 3px;
+}
+
+div.col-lage div.item{
+    align-self: flex-end;
+}
+
+div.col-lage div.item2{
+    justify-self: right;
+}
+
+section.con-tain-er2 div.right-cont-tent{
+    align-self: center;
+    flex-basis: 50rem;
+}
+
+section.con-tain-er2 div.right-cont-tent h5{
+    color: #FEA116;
+    font-size: 2rem;
+    font-family: "pacifico", cursive;
+    font-weight: 400;
+}
+
+div.right-cont-tent h1{
+    font-size: 2.5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+div.right-cont-tent p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+div.right-cont-tent div.sneaky{
+    width: 100%;
+}
+
+div.sneaky div{
+    float: left;
+    padding-right: 25px;
+    margin-top: 20px;
+    border-left: 5px solid #FEA116;
+}
+span.letter{
+    font-size: 4rem;
+    color: #FEA116;
+    font-weight: 800;
+    padding-right: 5px;
+}
+
+div.right-cont-tent button{
+    background-color: #FEA116;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+div.right-cont-tent button:hover{
+    background-color: #f79400;
+}
+
+/* ----------------section 3 -------------------- */
+section.sec3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #0f172b;
+    margin-top: 10rem;
+}
+
+section.sec3 div{
+    width: 50%;
+}
+
+section.sec3 div.aqua{
+    padding-left: 4rem;
+    padding-top: 5rem;
+}
+
+section.sec3 video{
+    height: 90vh;
+}
+
+section.sec3 div.aqua h4{
+    color: #FEA116;
+    font-family: "pacifico", cursive;
+    font-size: 2rem;
+}
+
+section.sec3 div.aqua h1{
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-size: 4rem;
+    align-self: center;
+}
+
+div.aqua form #name,#mail{
+    font-size: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    margin-right: 1.2rem;
+}
+
+div.aqua form #date{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    margin-right: 1.2rem;
+}
+
+#select{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    padding-right: 16.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    margin-right: 1.2rem;
+}
+
+#message{
+    height: 10rem;
+    width: 56.8rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+div.aqua button{
+    background-color: #FEA116;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1.5rem 22.8rem;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+div.aqua button:hover{
+    background-color: #f79400;
+}
+
+/* ---------------------section 4 CSS -------------------------------*/
+section.grid-container{
+    display: grid;
+    grid-template-areas: "header1 header1 header1 header1"
+                         "chef1 chef2 chef3 chef4"
+    ; 
+    gap: 5px; /* Add some spacing between grid items */
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    max-width: 100vw;
+}
+
+section.grid-container div.grid-item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.226);
+    justify-self: center;
+    padding: 50px;
+}
+
+div.grid-item img{
+    border-radius: 500px;
+    width: 180px;
+    height: 190px;
+    object-fit: cover;
+}
+
+div.grid-item h5{
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin-top: 7px;
+    text-align-last: center;
+}
+
+div.grid-item p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+section.grid-container div.header1{
+    grid-area: header1;
+    text-align: center;
+}
+
+div.header1 h4{
+    font-family: "pacifico", cursive;
+    color: #FEA116;
+    font-size: 2rem;
+}
+
+div.header1 h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+section.grid-container div.chef1{
+    grid-area: chef1;
+}
+
+section.grid-container div.chef2{
+    grid-area: chef2;
+}
+
+section.grid-container div.chef3{
+    grid-area: chef3;
+}
+
+section.grid-container div.chef4{
+    grid-area: chef4;
+}
+
+/*---------------------- Footer ------------------- */
+footer{
+    background-color: #0f172b;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer input#maily{
+    padding: 1.5rem 4rem 1.5rem 1rem;
+    font-size: 1.5rem;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid #FEA116;
+    border-radius: 5px;
+}
+
+footer input#submit{
+    padding: 1.4rem 0.8rem;
+    margin-left: -75px;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #FEA116;
+}
+
+footer div.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer div.flex-item{
+   flex-basis: 30rem;
+   align-self: center;
+}
+
+div.flex-item ul{
+    list-style-type:none;
+}
+
+div.flex-item ul a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+div.flex-item ul a:hover{
+    font-size: 1.8rem;
+}
+
+div.flex-item ul a::before{
+    content: "> ";
+}
+
+footer div.flex-item h1{
+    font-family: "pacifico", cursive;
+    color: #FEA116;
+    font-size: 3rem;
+    padding-bottom: 7px;
+}
+
+footer div.flex-item h5{
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+}
+
+footer div.flex-item p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-family: "Nunito", sans-serif;
+}
+
+footer section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer section p{
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
