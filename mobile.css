@@ -173,3 +173,94 @@ footer div.flex-item{
     font-family: "Nunito", sans-serif;
     color: white;
 }
+
+    header nav h1{
+        font-family: "nunito", sans-serif;
+        color: #FEA116 !important;
+        font-weight: 800;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    section.con-tain-er2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 25px;
+    }
+    
+    section.con-tain-er2 div.col-lage{
+        display: inline-grid;
+        grid-template-columns: 25rem 25rem;
+        grid-gap: 5px;
+    }
+
+    div.aqua form #name,#mail{
+        font-size: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        margin-right: 1.2rem;
+        width: 80%;
+        margin-bottom: 1rem;
+        outline: none;
+    }
+    
+    div.aqua form #date{
+        margin-top: 1rem;
+        font-size: 1.9rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        margin-right: 1.2rem;
+        width: 80%;
+        outline: none;
+    }
+
+    #select{
+        margin-top: 1rem;
+        font-size: 1.9rem;
+        padding-right: 16.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        margin-right: 1.2rem;
+        width: 80%;
+        outline: none;
+    }
+    
+    #message{
+        height: 10rem;
+        width: 81%;
+        margin-top: 1rem;
+        font-size: 2rem;
+        outline: none;
+        padding-left: 0.5rem;
+    }
+    
+    div.aqua button{
+        background-color: #FEA116;
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 1.5rem 16rem;
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+
+    section.con-tain-er1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 80px;
+    }
+}
