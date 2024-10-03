@@ -18,15 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -34,9 +30,9 @@
               "Title": "mobile.css",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Task 34\\mobile.css",
               "RelativeDocumentMoniker": "mobile.css",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Task 34\\mobile.css*",
-              "RelativeToolTip": "mobile.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Task 34\\mobile.css",
+              "RelativeToolTip": "mobile.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-30T16:57:50.306Z",
               "EditorCaption": ""
@@ -49,7 +45,7 @@
               "RelativeDocumentMoniker": "style.css",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Task 34\\style.css",
               "RelativeToolTip": "style.css",
-              "ViewState": "AgIAADsBAAAAAAAAAAArwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-30T16:55:34.999Z",
               "EditorCaption": ""

@@ -175,6 +175,7 @@ footer div.flex-item{
     color: white;
 }
 
+@media (max-width: 400px){
     header nav h1{
         font-family: "nunito", sans-serif;
         color: #FEA116 !important;
